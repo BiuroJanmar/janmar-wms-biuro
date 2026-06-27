@@ -106,7 +106,7 @@ if "p" in query_params:
     st.title("📱 SZYBKI PODGLĄD PALETY DLA HANDLOWCA")
     st.write("---")
     
-    if skanowany_id in baza_dedytowana := baza_dany_wiersz = baza_danych:
+    if skanowany_id in baza_danych:
         d = baza_danych[skanowany_id]
         st.success(f"✅ Znaleziono dostawę: {d['nr_pz']}")
         
